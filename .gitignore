@@ -1,0 +1,14 @@
+# Hugo build output — Cloudflare regenerates these on every build
+/public/
+/resources/
+.hugo_build.lock
+
+# macOS junk
+.DS_Store
+
+# Local certificates / secrets — never commit these
+/certs/
+
+# Original source photos (not used by the build).
+# Delete this line if you'd rather keep a backup of the originals in the repo.
+/site images/

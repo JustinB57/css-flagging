@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 160" role="img" aria-label="CSS — Construction Safety Services Inc.">
+  <defs>
+    <linearGradient id="cssFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#D9601C"/>
+      <stop offset="36%"  stop-color="#F4AE56"/>
+      <stop offset="50%"  stop-color="#FDEACB"/>
+      <stop offset="64%"  stop-color="#F0A048"/>
+      <stop offset="100%" stop-color="#A63A0B"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="140" cy="80" rx="118" ry="42"
+           fill="none" stroke="#141414" stroke-width="14"
+           transform="rotate(-15 140 80)"/>
+  <text x="140" y="118" text-anchor="middle"
+        font-family="'Arial Black','Arial Bold',Arial,Helvetica,sans-serif"
+        font-weight="900" font-style="italic" font-size="110"
+        letter-spacing="-6"
+        fill="url(#cssFill)" stroke="#141414" stroke-width="4"
+        paint-order="stroke">CSS</text>
+</svg>

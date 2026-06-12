@@ -1,0 +1,41 @@
+<section class="trust-strip">
+  <div class="trust-inner">
+    <h2 class="trust-heading">Certified &amp; Trusted</h2>
+    <p class="trust-sub">A certified DBE, MBE, and WBE &mdash; proud to work alongside Pennsylvania&rsquo;s leading agencies and contractors.</p>
+
+    <div class="trust-group">
+      <span class="trust-label">Certifications</span>
+      <div class="trust-logos">
+        <div class="trust-tile"><img src="/images/certifications/dbe.webp" alt="Certified Disadvantaged Business Enterprise (DBE)" loading="lazy"></div>
+        <div class="trust-tile"><img src="/images/certifications/mbe.webp" alt="Certified Minority Business Enterprise (MBE)" loading="lazy"></div>
+        <div class="trust-tile"><img src="/images/certifications/wbe.webp" alt="Certified Women&rsquo;s Business Enterprise (WBE)" loading="lazy"></div>
+      </div>
+    </div>
+
+    <div class="trust-group">
+      <span class="trust-label">Agencies &amp; Partners</span>
+      <div class="trust-logos">
+        <div class="trust-tile"><img src="/images/clients/padot.webp" alt="Pennsylvania Department of Transportation" loading="lazy"></div>
+        <div class="trust-tile"><img src="/images/clients/patp.webp" alt="Pennsylvania Turnpike" loading="lazy"></div>
+        <div class="trust-tile"><img src="/images/clients/gbrothers.webp" alt="Grannas Bros" loading="lazy"></div>
+        <div class="trust-tile"><img src="/images/clients/goh.webp" alt="Glenn O. Hawbaker Inc." loading="lazy"></div>
+        <div class="trust-tile"><img src="/images/clients/hri.webp" alt="HRI, Inc." loading="lazy"></div>
+        <div class="trust-tile"><img src="/images/clients/nenterprise.webp" alt="New Enterprise Stone &amp; Lime Co., Inc." loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .trust-strip{background:{{ site.Params.colors.white_offset | default "#f6f7ff" }};padding:64px 20px;}
+    .trust-inner{max-width:1100px;margin:0 auto;text-align:center;}
+    .trust-heading{font-size:1.9rem;margin:0 0 8px;color:{{ site.Params.colors.black | default "#2f2f41" }};}
+    .trust-sub{max-width:700px;margin:0 auto 36px;color:{{ site.Params.colors.grey | default "#5C5A5A" }};font-size:1.05rem;line-height:1.55;}
+    .trust-group{margin-bottom:32px;}
+    .trust-group:last-child{margin-bottom:0;}
+    .trust-label{display:block;text-transform:uppercase;letter-spacing:2px;font-size:.72rem;font-weight:700;color:{{ site.Params.colors.primary | default "#C8102E" }};margin-bottom:16px;}
+    .trust-logos{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;}
+    .trust-tile{background:#fff;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.08);padding:14px 18px;display:flex;align-items:center;justify-content:center;min-width:120px;height:78px;}
+    .trust-tile img{max-height:50px;max-width:150px;width:auto;height:auto;display:block;}
+    @media(max-width:600px){.trust-tile{min-width:90px;height:64px;padding:10px;}.trust-tile img{max-height:40px;max-width:110px;}}
+  </style>
+</section>

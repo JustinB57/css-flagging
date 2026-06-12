@@ -1,0 +1,20 @@
+{{ define "body_classes" }}page-contact{{ end }}
+
+{{ define "main" }}
+<div style="background-image: linear-gradient(rgba(255,255,255,0.74), rgba(255,255,255,0.68)), url('/images/css/work-zone-sunset.jpeg'); background-size: cover; background-position: center 50%; background-repeat: no-repeat; padding: 64px 0;">
+  <div class="container">
+    <h1 class="title" style="margin-bottom:0;">{{ .Title }}</h1>
+  </div>
+</div>
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        {{ partial "call.html" (dict "site" .Site "context" . "show_button" "false") }}
+        <div class="content mt-4">{{ .Content }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
