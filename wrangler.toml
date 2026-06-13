@@ -1,0 +1,6 @@
+name = "css-flagging"
+compatibility_date = "2026-06-12"
+
+[assets]
+directory = "./public"
+not_found_handling = "404-page"
